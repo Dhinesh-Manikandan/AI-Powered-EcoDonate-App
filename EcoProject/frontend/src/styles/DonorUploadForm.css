@@ -1,0 +1,59 @@
+/* DonorUploadForm.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.donor-form-container {
+  max-width: 500px;
+  margin: 80px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.donor-form-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 24px;
+  color: #1f2937;
+}
+
+.donor-input {
+  width: 90%;
+  padding: 12px 14px;
+  margin-bottom: 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 15px;
+  background-color: #f9fafb;
+  transition: border-color 0.2s ease-in-out;
+  color:black;
+}
+
+.donor-input:focus {
+  outline: none;
+  background-color: #fff;
+  border-color: #2563eb;
+  width:95%;
+
+}
+
+.donor-submit-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #2563eb;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.donor-submit-btn:hover {
+  background-color: #1d4ed8;
+}

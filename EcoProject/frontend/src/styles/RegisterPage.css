@@ -1,0 +1,83 @@
+/* RegisterPage.css */
+
+body {
+  background-color: #151515;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.register-container {
+  background-color: white;
+  max-width: 450px;
+  margin: 60px auto;
+  padding: 30px 28px;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.register-title {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 24px;
+  text-align: center;
+  color: #1f2937;
+}
+
+.input {
+  width: 90%;
+  padding: 12px 14px;
+  margin-bottom: 16px;
+  border: 1.5px solid #3b4149;
+  border-radius: 8px;
+  font-size: 15px;
+  background-color: #f9fafb;
+  transition: border 0.2s ease-in-out;
+  color:black;
+}
+
+.input:focus {
+    outline: none;
+    background-color: #fff;
+    border-color: #2563eb;
+    width:95%;
+}
+
+
+.btn-green {
+  width: 100%;
+  padding: 12px;
+  background-color: #16a34a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+.btn-green:hover {
+  background-color: #15803d;
+}
+
+.btn-blue {
+  width: 100%;
+  padding: 12px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+.btn-blue:hover {
+  background-color: #1d4ed8;
+}
+
+.otp-section {
+  margin-top: 20px;
+}
